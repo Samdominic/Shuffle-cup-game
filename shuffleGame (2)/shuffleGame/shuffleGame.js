@@ -1,4 +1,4 @@
-let imageSrc = ["C:/Users/Sam/Projects/shuffleGame/images/blue-cup1.svg", "C:/Users/Sam/Projects/shuffleGame/images/blue-cup1.svg", "C:/Users/Sam/Projects/shuffleGame/images/blue-cup1.svg"]
+let imageSrc = ["/home/sam/Desktop/Sam/shuffleGame (2)/shuffleGame/images/blue-cup1.svg", "/home/sam/Desktop/Sam/shuffleGame (2)/shuffleGame/images/blue-cup1.svg", "/home/sam/Desktop/Sam/shuffleGame (2)/shuffleGame/images/blue-cup1.svg"]
 // let heading = document.createElement('h1');
 // heading.id = "heading"
 // heading.style.color = "whitesmoke";
@@ -8,7 +8,7 @@ let imageSrc = ["C:/Users/Sam/Projects/shuffleGame/images/blue-cup1.svg", "C:/Us
 // heading.innerText = "Can you find me??"
 // document.getElementById('div').appendChild(heading);
 $(document).ready(function(){
-  let imageSrc = ["C:/Users/Sam/Projects/shuffleGame/images/blue-cup1.svg", "C:/Users/Sam/Projects/shuffleGame/images/blue-cup1.svg", "C:/Users/Sam/Projects/shuffleGame/images/blue-cup1.svg"]
+  let imageSrc = ["/home/sam/Desktop/Sam/shuffleGame (2)/shuffleGame/images/blue-cup1.svg", "/home/sam/Desktop/Sam/shuffleGame (2)/shuffleGame/images/blue-cup1.svg", "/home/sam/Desktop/Sam/shuffleGame (2)/shuffleGame/images/blue-cup1.svg"]
   let heading ="<h1 id='heading'>Can you find me??</h1>";
   $("#div").append(heading);
   $("#heading").css({"color":"whitesmoke","position":"relative","left":"-50px"});
@@ -62,7 +62,7 @@ setTimeout(() => {
 // document.getElementById('heading').appendChild(imgsm);
 let imgsm ="<img id='imgsm'></img>";
 $("#heading").append(imgsm);
-$("#imgsm").attr("src","C:/Users/Sam/Projects/shuffleGame/images/ball.png");
+$("#imgsm").attr("src","/home/sam/Desktop/Sam/shuffleGame (2)/shuffleGame/images/ball.png");
 
 //Points 
 // let points = 0;
@@ -259,7 +259,7 @@ setTimeout(() => {
 // }
 let div2 =$("<div id='div2'></div>");
 $("#div").append(div2);
-let ig =["C:/Users/Sam/Projects/shuffleGame/images/invisible.png","C:/Users/Sam/Projects/shuffleGame/images/ball.png","C:/Users/Sam/Projects/shuffleGame/images/invisible.png"];
+let ig =["/home/sam/Desktop/Sam/shuffleGame (2)/shuffleGame/images/invisible.png","/home/sam/Desktop/Sam/shuffleGame (2)/shuffleGame/images/ball.png","/home/sam/Desktop/Sam/shuffleGame (2)/shuffleGame/images/invisible.png"];
 let click = 0;
 for(let i = 0 ;i<=2;i++){
   let ball = $("<img id='ball1' src='"+ig[i]+"'></img>");
