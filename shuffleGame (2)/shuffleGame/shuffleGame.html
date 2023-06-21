@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuffle Game</title>
+    <style>
+
+        #img1Id.anime {
+            position: relative;
+            animation: myfirst 2s 3;
+            animation-direction: alternate;
+        }
+         #img2Id.anime{
+            position: relative;
+            animation: myfirst1 2s 3;
+            animation-direction: alternate;
+        } 
+        #img3Id.anime{
+            position: relative;
+            animation:myfirst2 2s 3;
+            animation-direction: alternate;
+        }  
+        #img1Id.shuffle {
+            position: relative;
+            animation: anime 2s 3;
+            animation-direction: alternate;
+        }
+         #img2Id.shuffle{
+            position: relative;
+            animation: anime1 2s 3;
+            animation-direction: alternate;
+        } 
+        #img3Id.shuffle{
+            position: relative;
+            animation:anime2 2s 3;
+            animation-direction: alternate;
+        }  
+         @keyframes myfirst2 {
+         0%{left :0px}
+         10%{transform: perspective(500px) translateZ(-9rem);}
+         20%{transform: perspective(500px) translateZ(-9rem);}
+         30%{transform: perspective(500px) translateZ(-9rem);}
+         40%{transform: perspective(500px) translateZ(-9rem);}
+         50%{left :0px ;position: relative;}
+         60%{transform: perspective(200px) translateZ(1rem);}
+         70%{transform: perspective(200px) translateZ(1rem);}
+         80%{transform: perspective(200px) translateZ(1rem);}
+         90%{transform: perspective(200px) translateZ(1rem);}
+         100%{top :0 ;left:-600px}
+        }
+        @keyframes myfirst1 {
+         0%{left :0px}
+         10%{transform: perspective(200px) translateZ(1rem);}
+         20%{transform: perspective(200px) translateZ(1rem);}
+         30%{transform: perspective(200px) translateZ(1rem);}
+         40%{transform: perspective(200px) translateZ(1rem);}
+         50%{top :0;left: -300px;}
+         60%{transform: perspective(500px) translateZ(-9rem);}
+         70%{transform: perspective(500px) translateZ(-9rem);}
+         80%{transform: perspective(500px) translateZ(-9rem);}
+         90%{transform: perspective(500px) translateZ(-9rem);}
+         100%{top :0 ;left:0px}
+        }
+        @keyframes myfirst {
+         0%{left :0px}
+         10%{transform: perspective(500px) translateZ(-9rem);}
+         20%{transform: perspective(500px) translateZ(-9rem);}
+         30%{transform: perspective(500px) translateZ(-9rem);}
+         40%{transform: perspective(500px) translateZ(-9rem);}
+         50%{top :0;left: 300px;}
+         60%{transform: perspective(500px) translateZ(-9rem);}
+         70%{transform: perspective(500px) translateZ(-9rem);}
+         80%{transform: perspective(500px) translateZ(-9rem);}
+         90%{transform: perspective(500px) translateZ(-9rem);}
+         100%{top :0 ;left:600px}
+        }
+        @keyframes anime{
+         0%{left :0px}
+         10%{transform: perspective(200px) translateZ(1rem);}
+         20%{transform: perspective(200px) translateZ(1rem);}
+         30%{transform: perspective(200px) translateZ(1rem);}
+         40%{transform: perspective(200px) translateZ(1rem);}
+         50%{left :600px}
+         60%{transform: perspective(200px) translateZ(1rem);}
+         70%{transform: perspective(200px) translateZ(1rem);}
+         80%{transform: perspective(200px) translateZ(1rem);}
+         90%{transform: perspective(200px) translateZ(1rem);}
+         100%{top :0 ;left:0px}
+        }
+        @keyframes anime1{
+         0%{left :0px}
+         10%{transform: perspective(500px) translateZ(-9rem);}
+         20%{transform: perspective(500px) translateZ(-9rem);}
+         30%{transform: perspective(500px) translateZ(-9rem);}
+         40%{transform: perspective(500px) translateZ(-9rem);}
+         50%{left: 0px; position: relative;}
+         60%{transform: perspective(500px) translateZ(-9rem);}
+         70%{transform: perspective(500px) translateZ(-9rem);}
+         80%{transform: perspective(500px) translateZ(-9rem);}
+         90%{transform: perspective(500px) translateZ(-9rem);}
+         100%{top :0 ;left:300px}
+        }
+        @keyframes anime2{
+         0%{left :0px}
+         10%{transform: perspective(500px) translateZ(-9rem);}
+         20%{transform: perspective(500px) translateZ(-9rem);}
+         30%{transform: perspective(500px) translateZ(-9rem);}
+         40%{transform: perspective(500px) translateZ(-9rem);}
+         50%{left: -600px;}
+         60%{transform: perspective(500px) translateZ(-9rem);}
+         70%{transform: perspective(500px) translateZ(-9rem);}
+         80%{transform: perspective(500px) translateZ(-9rem);}
+         90%{transform: perspective(500px) translateZ(-9rem);}
+         100%{top :0 ;left:-300px}
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body style="text-align: center;background-image: url('https://i.pinimg.com/originals/22/66/19/226619a3bd7ddd41ce861f2c96976b79.jpg');background-size: cover;">
+    <div id="div" style="text-align:center;margin-top: 100px;">
+
+    </div>
+    <script src="../shuffleGame/shuffleGame.js"></script>
+</body>
+
+</html>
